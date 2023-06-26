@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SPIEL
+comment1.params=
+comment1.target=void\ startwert()
+comment2.params=
+comment2.target=void\ karteZiehen()
+comment3.params=
+comment3.target=void\ endTurn()
+numComments=4
