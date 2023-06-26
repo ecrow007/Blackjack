@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.awt.Color;
 
 public class SPIEL 
 {
@@ -16,6 +17,7 @@ public class SPIEL
         
         summe = startValue;
     }
+    
     public void karteZiehen()
     {
     Random zufall = new Random();
@@ -44,5 +46,9 @@ public class SPIEL
             System.out.println("Dein Score: " + summe);
             System.out.println("Aktueller Highscore: " + highscore);
         }
+    }
+    
+    public void testMarkus() {
+        ZEICHENFENSTER fenster = new ZEICHENFENSTER("Titel");
     }
 }
