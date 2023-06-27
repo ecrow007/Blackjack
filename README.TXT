@@ -6,9 +6,9 @@ alles, was er/sie wissen muss. Üblicherweise sollte der Kommentar
 zumindest die folgenden Angaben umfassen:
 ------------------------------------------------------------------------
 
-PROJEKTBEZEICHNUNG:
-PROJEKTZWECK:
-VERSION oder DATUM:
-WIE IST DAS PROJEKT ZU STARTEN:
-AUTOR(EN):
+PROJEKTBEZEICHNUNG: Blackjack bis 21
+PROJEKTZWECK: Informatik G10d
+VERSION oder DATUM: 25.06.2023
+WIE IST DAS PROJEKT ZU STARTEN: mit new SPIEL(), starte()
+AUTOR(EN): Elias Hülls, Emil Bauer
 BENUTZERHINWEISE:

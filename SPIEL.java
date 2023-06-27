@@ -1,54 +1,32 @@
-import java.util.Random;
 import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.EventQueue;
+import java.awt.Font;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.text.AttributeSet;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.PlainDocument;
+import javax.swing.border.LineBorder;
+import javax.swing.JButton;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.Rectangle;
+import javax.swing.SwingConstants;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
 public class SPIEL 
 {
-    private static int summe;
-    public void startwert() {
-        Random random = new Random();
-        int min = 1;
-        int max = 5;
-
-        int number1 = random.nextInt(max - min + 1) + min;
-        int number2 = random.nextInt(max - min + 1) + min;
-        int startValue = number1 + number2;
-        
-        System.out.println("ihr Startwert beträgt: " + startValue);
-        
-        summe = startValue;
-    }
-    
-    public void karteZiehen()
-    {
-    Random zufall = new Random();
-    int min = 1;
-    int max = 11;
-        
-    int karte = zufall.nextInt(max - min + 1) + min;
-        
-    System.out.println("der Wert der gezogenen Karte liegt bei: " + karte);
-    
-    summe += karte;
-    System.out.println("neue gesamt Summe: " + summe);
-    if (summe > 21) {
-            System.out.println("Die Summe ist größer als 21 ");
-            System.out.println("SIE HABEN VERLOREN");
-    }
-    }
-    private int highscore = 0;
-    
-
-    public void endTurn() {
-        if (summe > highscore) {
-            highscore = summe;
-            System.out.println("Neuer Highscore: " + highscore);
-        } else {
-            System.out.println("Dein Score: " + summe);
-            System.out.println("Aktueller Highscore: " + highscore);
-        }
-    }
-    
-    public void testMarkus() {
-        ZEICHENFENSTER fenster = new ZEICHENFENSTER("Titel");
-    }
+    public void starte() {
+        BlackjackOverlay blackjack = new BlackjackOverlay();
+        blackjack.holeFrame().setVisible(true);
+    }       
 }

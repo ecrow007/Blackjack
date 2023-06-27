@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Zufall
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Zufall.\r\n\ \r\n\ @author\ (Elias\ und\ Emil)\ \r\n\ @version\ (1)\r\n
+comment1.params=
+comment1.target=int\ startwert()
+comment2.params=
+comment2.target=int\ n\u00E4chsteKarte()
+numComments=3
