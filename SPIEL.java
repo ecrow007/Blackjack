@@ -26,7 +26,7 @@ import java.awt.event.MouseListener;
 public class SPIEL 
 {
     public void starte() {
-        BlackjackOverlay blackjack = new BlackjackOverlay();
-        blackjack.holeFrame().setVisible(true);
+        BlackjackOverlay blackjack = new BlackjackOverlay(); // hier wird das Blackjack objekt erstellt.
+        blackjack.holeFrame().setVisible(true); // wird sichtbar
     }       
 }

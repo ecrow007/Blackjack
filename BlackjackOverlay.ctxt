@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=BlackjackOverlay
-comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ BlackjackOverlay.\r\n\ \r\n\ @author\ (Elias\ und\ Emil)\ \r\n\ @version\ (26.06.2023)\r\n
+comment0.text=\r\n\ Klasse\ BlackjackOverlay\ zum\ Anzeigen\ vom\ Spiel.\r\n\ \r\n\ @author\ (Elias\ und\ Emil)\ \r\n\ @version\ (26.06.2023)\r\n
 comment1.params=
 comment1.target=javax.swing.JFrame\ holeFrame()
 comment2.params=
